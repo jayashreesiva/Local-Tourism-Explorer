@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Local Tourism Explorer</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- Navigation Bar -->
+    <header>
+        <nav class="navbar">
+
+            <div class="logo">
+                🌍 Local<span>Tourism</span>
+            </div>
+
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#destinations">Destinations</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+
+            <a href="#destinations" class="explore-btn">
+                Explore Now
+            </a>
+
+        </nav>
+    </header>
+
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+
+        <div class="hero-content">
+
+            <p class="small-title">DISCOVER • EXPLORE • EXPERIENCE</p>
+
+            <h1>
+                Explore the Beauty<br>
+                <span>Around You</span>
+            </h1>
+
+            <p class="hero-text">
+                Discover amazing destinations, local culture,
+                delicious food and unforgettable experiences
+                right around you.
+            </p>
+
+            <div class="hero-buttons">
+                <a href="#destinations" class="primary-btn">
+                    Explore Destinations →
+                </a>
+
+                <a href="#experience" class="secondary-btn">
+                    Discover More
+                </a>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- Destinations Section -->
+    <section class="destinations" id="destinations">
+
+        <div class="section-heading">
+            <p>POPULAR PLACES</p>
+            <h2>Explore Local Destinations</h2>
+            <span>
+                Find beautiful places and create unforgettable memories.
+            </span>
+        </div>
+
+
+        <div class="destination-container">
+
+            <!-- Chennai -->
+            <div class="destination-card">
+                <img
+    src="https://cdn.getyourguide.com/image/format%3Dauto%2Cfit%3Dcrop%2Cgravity%3Dauto%2Cquality%3D60%2Cwidth%3D400%2Cheight%3D265%2Cdpr%3D2/tour_img/63e6ccddcfe4e93e7d68c528fe8c104e26e239d84243cc9d8529e2cadd063a0e.png"
+    alt="Marina Beach, Chennai">
+                <div class="card-content">
+                    <span>🌊 Tamil Nadu</span>
+                    <h3>Chennai</h3>
+                    <p>
+                        Explore beaches, temples, museums and
+                        the vibrant culture of Chennai.
+                    </p>
+                    <a href="#" onclick="showDestination('Chennai'); return false;">Discover →</a>
+                </div>
+            </div>
+
+
+            <!-- Ooty -->
+            <div class="destination-card">
+                <img
+                    src="https://images.unsplash.com/photo-1593693397690-362cb9666fc2?auto=format&fit=crop&w=800&q=80"
+                    alt="Ooty">
+                <div class="card-content">
+                    <span>🌿 Tamil Nadu</span>
+                    <h3>Ooty</h3>
+                    <p>
+                        Enjoy beautiful hills, gardens, lakes
+                        and the refreshing mountain climate.
+                    </p>
+                   <a href="#" onclick="showDestination('Ooty'); return false;">Discover →</a>
+                   
+                </div>
+            </div>
+
+
+            <!-- Mahabalipuram -->
+            <div class="destination-card">
+                <img
+    src="https://chardham.ticketstotrip.com/wp-content/uploads/2025/09/temple_pMLwcwPy_202506191714040.webp"
+    alt="Shore Temple, Mahabalipuram">
+                <div class="card-content">
+                    <span>🏛️ Tamil Nadu</span>
+                    <h3>Mahabalipuram</h3>
+                    <p>
+                        Discover ancient temples, sculptures
+                        and beautiful coastal views.
+                    </p>
+                    <a href="#" onclick="showDestination('Mahabalipuram'); return false;">Discover →</a
+                </div>
+            </div>
+
+
+            <!-- Madurai -->
+            <div class="destination-card">
+                <img
+    src="https://royalcourtindia.com/storage/2023/09/meenakshi-amman-temple-madurai.jpg"
+    alt="Meenakshi Amman Temple, Madurai">
+                <div class="card-content">
+                    <span>🛕 Tamil Nadu</span>
+                    <h3>Madurai</h3>
+                    <p>
+                        Experience magnificent temples,
+                        traditions and famous local cuisine.
+                    </p>
+                    <a href="#" onclick="showDestination('Madurai'); return false;">Discover →</a>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- Experience Section -->
+    <section class="experience" id="experience">
+
+        <div class="experience-content">
+
+            <p class="small-title">LOCAL EXPERIENCES</p>
+
+            <h2>
+                More Than Just<br>
+                <span>A Destination</span>
+            </h2>
+
+            <p>
+                Tourism is about experiencing the local culture,
+                tasting traditional food, meeting people and
+                discovering stories hidden in every destination.
+            </p>
+
+            <div class="features">
+
+                <div class="feature">
+                    <div class="feature-icon">🍴</div>
+                    <div>
+                        <h3>Local Food</h3>
+                        <p>Taste authentic local cuisine.</p>
+                    </div>
+                </div>
+
+                <div class="feature">
+                    <div class="feature-icon">🎭</div>
+                    <div>
+                        <h3>Culture</h3>
+                        <p>Experience traditions and festivals.</p>
+                    </div>
+                </div>
+
+                <div class="feature">
+                    <div class="feature-icon">📸</div>
+                    <div>
+                        <h3>Memories</h3>
+                        <p>Capture unforgettable moments.</p>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="experience-box">
+            <div>
+                <span>YOUR NEXT</span>
+                <h3>Adventure<br>Awaits</h3>
+                <p>Pack your bags and start exploring.</p>
+            </div>
+        </div>
+
+    </section>
+
+
+    <!-- About Section -->
+    <section class="about" id="about">
+
+        <div class="section-heading">
+            <p>ABOUT US</p>
+            <h2>Discover. Experience. Remember.</h2>
+            <span>
+                Local Tourism Explorer helps travelers discover
+                interesting places, cultures and experiences.
+            </span>
+        </div>
+
+    </section>
+
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+
+        <div class="contact-box">
+
+            <h2>Ready to Explore?</h2>
+
+            <p>
+                Start discovering beautiful places and
+                unforgettable experiences today.
+            </p>
+
+            <a href="#destinations" class="primary-btn">
+                Start Exploring →
+            </a>
+
+        </div>
+
+    </section>
+
+
+    <!-- Footer -->
+    <footer>
+
+        <div class="footer-logo">
+            🌍 LocalTourism
+        </div>
+
+        <p>
+            © 2026 Local Tourism Explorer. Explore responsibly.
+        </p>
+
+    </footer>
+
+</body>
+</html>
